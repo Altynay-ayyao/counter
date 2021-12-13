@@ -24,13 +24,14 @@ code {
   text-align: center;
   padding-top: 75px;
   color: #c9f658;
+  margin-left: 45%;
 }
 
 .circle_odd {
   background-color: #ff6f6f;
   height: 200px;
   width: 200px;
-
+  margin-left: 30%;
   border-radius: 50%;
   text-align: center;
   padding-top: 75px;
@@ -51,6 +52,13 @@ code {
 header,
 footer {
   background-color: burlywood;
+}
+
+.button_wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 button {

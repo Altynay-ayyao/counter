@@ -53,11 +53,13 @@ class Main extends Component {
       <div>
         <h1 className={circleClass}>{this.state.counter}</h1>
         <p>{this.state.text}</p>
+        <div className="button_wrapper">
         <button onClick={this.addOneHandler}>Add one</button>
         <button onClick={this.removeOneHandler}>Remove one</button>
         <button onClick={this.resetHandler}>Reset</button>
         <button onClick={this.addFiveHandler}>Add five</button>
         <button onClick={this.removeFiveHandler}>Remove five</button>
+        </div>
       </div>
     );
   }
